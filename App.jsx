@@ -25,7 +25,6 @@ App = React.createClass({
     //Get wods from this.data.wads
     console.log(this.data.wods);
     return this.data.wods.map((wod) => {
-      //return <Wod key={wod._id} wod={wod.text} />
       return wod;
     });
   },
